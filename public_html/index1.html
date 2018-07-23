@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Profile</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <!-- styles for this little demo page -->
+        <style type="text/css">
+            figure{
+                display:block;
+                width:100px;
+                height: 100px;
+                border-radius: 100px;
+                font-size: 25px;
+                text-align: center;
+                margin-right: 10px;
+                background: #A98F89;
+                line-height: 1.7em;
+            }
+
+            figure img{
+                display:inline-block;
+                width: 80px;
+                height: auto;
+            }
+            .my-circle {
+                width: 10px;
+                height: 10px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                border-radius: 25px;
+                background: green;
+            }
+            .my-circle-open {
+                width: 10px;
+                height: 10px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                border-radius: 25px;
+                background: white;
+            }
+            body{
+                background-color: #f5f5f5;
+                margin: 0;
+                padding: 0;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            }
+
+            .page {
+                margin: 40px;
+            }
+
+            h1{
+                margin: 40px 0 60px 0;
+            }
+
+            .dark-area {
+                background-color: #666;
+                padding: 40px;
+                margin: 0 -40px 20px -40px;
+                clear: both;
+            }
+
+            .clearfix:before,.clearfix:after {content: " "; display: table;}
+            .clearfix:after {clear: both;}
+            .clearfix {*zoom: 1;}
+
+        </style>
+
+        <link rel="stylesheet" href="css/circle.css">
+
+    </head>
+
+    <body style="background-color: white">
+        <table cellspacing="-10px" cellpadding="-20px">
+            <tr>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p80 green">
+                                <span>
+                                    <img style="width: 150px;margin-top: 13px;margin-left: -14px;margin-bottom: 20px"
+                                         src="images/Beginning-Java-Web-Development-Training-Video.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p80 green">
+                                <span>
+                                    <img style="width: 150px;margin-top: 0px;margin-left: -16px;"
+                                         src="images/Java8.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p60 green">
+                                <span>
+                                    <img style="width: 150px;margin-top: 15px;margin-left: -16px;"
+                                         src="images/parallel.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+
+
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p60 green">
+                                <span>
+                                    <img style="width: 80px;margin-top: 10px;margin-left: -5px;"
+                                         src="images/golang-logo.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p50 green">
+                                <span>
+                                    <img style="width: 70px;margin-top: 15px;margin-left: -5px;"
+                                         src="images/ruby-mini-logo.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p50 green">
+                                <span>
+                                    <img style="width:140px;margin-top: 20px;margin-left: -10px;"
+                                         src="images/Python-Logo-PNG-Image.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p65 green">
+                                <span>
+                                    <img style="width:100px;margin-top: 10px;margin-left: 0px;"
+                                         src="images/27_c-sharp-logo-filled.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p80 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 14px;margin-left: -2px;margin-bottom: 20px"
+                                         src="images/Spring.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p80 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 35px;margin-left: -5px;"
+                                         src="images/spring-boot-logo.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p80 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 40px;margin-left: 5px;"
+                                         src="images/boot-data.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p72 green">
+                                <span>
+                                    <img style="width: 120px;margin-top: 10px;margin-left: -5px;"
+                                         src="images/hibernate.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p50 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 25px;margin-left: -5px;"
+                                         src="images/elk-stack-logo.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p72 green">
+                                <span>
+                                    <img style="width:110px;margin-top: 40px;margin-left: 5px;"
+                                         src="images/Cordova-logo-by-gengns.svg.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p55 green">
+                                <span>
+                                    <img style="width: 80px;margin-top: 14px;margin-left: -2px;margin-bottom: 20px"
+                                         src="images/postgresql-logo.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p68 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 25px;margin-left: -5px;"
+                                         src="images/mysql-logo-png-transparent.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p55 green">
+                                <span>
+                                    <img style="width: 85px;margin-top: 14px;margin-left: -2px;margin-bottom: 20px"
+                                         src="images/JPASQL_Logo.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td> 
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p72 green">
+                                <span>
+                                    <img style="width: 90px;margin-top: 50px;margin-left: -5px;"
+                                         src="images/url.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p67 green">
+                                <span>
+                                    <img style="width: 90px;margin-top: 40px;margin-left: 0px;"
+                                         src="images/npm.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p80 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 50px;margin-left: 0px;"
+                                         src="images/maven-logo-black-on-white.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+
+            </tr>
+            <tr>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p72 green">
+                                <span>
+                                    <img style="width:90px;margin-top: 50px;margin-left: 0px;"
+                                         src="images/2000px-Ionic_Logo.svg.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p78 green">
+                                <span>
+                                    <img style="width: 90px;margin-top: 25px;margin-left: -5px;"
+                                         src="images/Spring-Data.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p45 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 40px;margin-left: 0px;"
+                                         src="images/Ruby_On_Rails_Logo.svg.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p85 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 15px;margin-left: -3px;"
+                                         src="images/REST.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p78 green">
+                                <span>
+                                    <img style="width: 90px;margin-top: 25px;margin-left: -2px;margin-bottom: 20px"
+                                         src="images/glassfish.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p85 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 25px;margin-left: -5px;"
+                                         src="images/tomcat.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p85 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 35px;margin-left: -5px;"
+                                         src="images/apache-logo-integration.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p80 green">
+                                <span>
+                                    <img style="width: 90px;margin-top: 35px;margin-left: 0px;"
+                                         src="images/2000px-JBoss_logo.svg.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p77 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 40px;margin-left: -2px;margin-bottom: 20px"
+                                         src="images/logo-title.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p68 green">
+                                <span>
+                                    <img style="width: 80px;margin-top: 15px;margin-left: 0px;"
+                                         src="images/LINUX-LOGO.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p85 green">
+                                <span>
+                                    <img style="width: 90px;margin-top: 43px;margin-left: 0px;"
+                                         src="images/2000px-Git-logo.svg.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p85 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 10px;margin-left: 0px;"
+                                         src="images/0722.sdt-atlassian.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p67 green">
+                                <span>
+                                    <img style="width: 90px;margin-top: 10px;margin-left: 0px;"
+                                         src="images/docker-vertical.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p72 green">
+                                <span>
+                                    <img style="width:93px;margin-top: 40px;margin-left: 0px;"
+                                         src="images/aws-logo.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p77 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 40px;margin-left: 4px;margin-bottom: 20px"
+                                         src="images/scrum.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p78 green">
+                                <span>
+                                    <img style="width: 120px;margin-top: 10px;margin-left: 0px;"
+                                         src="images/sprint_cycle.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p85 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 33px;margin-left: 0px;"
+                                         src="images/Confluence-URL.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p85 green">
+                                <span>
+                                    <img style="width:90px;margin-top: 45px;margin-left: 0px;"
+                                         src="images/jira-logo-C48AC3A7BD-seeklogo.com.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p85 green">
+                                <span>
+                                    <img style="width: 90px;margin-top: 20px;margin-left: 0px;"
+                                         src="images/agency-project-management.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p72 green">
+                                <span>
+                                    <img style="width:85px;margin-top: 20px;margin-left: 0px;"
+                                         src="images/tl.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p77 green">
+                                <span>
+                                    <img style="width: 100px;margin-top: 40px;margin-left: 4px;margin-bottom: 20px"
+                                         src="images/angular-card.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p78 green">
+                                <span>
+                                    <img style="width: 90px;margin-top: 15px;margin-left: 0px;"
+                                         src="images/bootstrap-png-bootstrap-512.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p85 green">
+                                <span>
+                                    <img style="width: 150px;margin-top:37px;margin-left: -15px;"
+                                         src="images/javascript-logo.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p65 green">
+                                <span>
+                                    <img style="width:75px;margin-top: 15px;margin-left: 0px;"
+                                         src="images/jquery-logo-png--800.gif" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p65 green">
+                                <span>
+                                    <img style="width: 90px;margin-top: 35px;margin-left: 5px;"
+                                         src="images/php-elephant-logo-bd4f9d83be8c8563248fe4793f90bae7.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="page">
+                        <div class="clearfix">
+                            <div class="c100 p82 green">
+                                <span>
+                                    <img style="width:85px;margin-top: 40px;margin-left: 0px;"
+                                         src="images/ajax-logo-A71F50DE08-seeklogo.com.png" alt="image">
+                                </span>
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
